@@ -1,4 +1,8 @@
 /**
+ * Here we defined a mixin which in turn uses the variables
+ * we specified in our _variables file.
+ */
+/**
  * Declare some variables that we can re-use in other parts of our css
  */
 button {

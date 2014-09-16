@@ -1,0 +1,22 @@
+/**
+ * Here we defined a mixin which in turn uses the variables
+ * we specified in our _variables file.
+ */
+@mixin radius($size: medium){
+	@if $size == small {
+		border-radius: $smallRadius;
+	}
+	
+	@if $size == medium {
+		border-radius: $mediumRadius;
+	}
+	
+	@if $size == large {
+		border-radius: $largeRadius;
+	}
+	
+	@else {
+		border-radius: $mediumRadius;
+	}
+
+}
