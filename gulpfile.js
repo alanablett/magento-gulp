@@ -50,8 +50,8 @@ gulp.task('js', function(){
  */
 gulp.task('watch', function(){
     livereload.listen();
-    gulp.watch(sourceCssDirectory + '/***/*.scss', ['css']).on('change', livereload.changed);
-    gulp.watch(sourceJsDirectory +  '/***/*.js', ['js']).on('change', livereload.changed);
+    gulp.watch(sourceCssDirectory + '/**/*.scss', ['css']).on('change', livereload.changed);
+    gulp.watch(sourceJsDirectory +  '/**/*.js', ['js']).on('change', livereload.changed);
 });
 
 /**

@@ -7,4 +7,6 @@ button {
   background: #e3e3e3; }
 
 form input, form textarea {
-  outline: none; }
+  outline: none;
+  -webkit-border-radius: 6px;
+  border-radius: 6px; }

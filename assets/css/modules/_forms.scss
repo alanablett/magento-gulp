@@ -3,6 +3,7 @@ form {
 	input,
 	textarea {
 		outline: none;
+		border-radius: $largeRadius;
 	}
 	
 }
