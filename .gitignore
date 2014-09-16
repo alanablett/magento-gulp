@@ -20,14 +20,6 @@
 /httpdocs/app/etc/config.xml
 
 /httpdocs/app/etc/modules/*
-!/httpdocs/app/etc/modules/Untitled_*.xml
-!/httpdocs/app/etc/modules/Wcl_Hotspot.xml
-
-# Custom Module Initializer
-httpdocs/app/etc/modules/Untitled_ApiExtensions.xml
-httpdocs/app/etc/modules/Untitled_Estimateddeliverydate.xml
-httpdocs/app/etc/modules/Untitled_DataElementWidget.xml
-httpdocs/app/etc/modules/Untitled_BrowserCacheBusta.xml
 
 # Locale
 /httpdocs/app/locale/*
