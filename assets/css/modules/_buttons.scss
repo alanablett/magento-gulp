@@ -1,0 +1,10 @@
+/**
+ * Declare some variables that we can re-use in other parts of our css
+ */
+$buttonBgColor: #e3e3e3;
+$buttonBorderRadius: 3px;
+
+button {
+	border-radius: $buttonBorderRadius;
+	background: $buttonBgColor;
+}
